@@ -1,0 +1,482 @@
+
+
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh;
+    opacity: 0.99;
+    background-image: url(/headerimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+.horizontal-list li{
+    display:inline-block;
+    color: white;
+    margin: 0px 50px 50px 0px;
+}
+
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s,border-bottom 4s;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.horizontal-list li a:hover{
+    color: rgb(14, 201, 189);
+    border-bottom: 1px solid white;
+}
+.text-center{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0px 0px 0px;
+}
+
+#my-name{
+    display: block;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family:serif
+}
+
+.socialicons li a{
+    padding: 10x;
+    border-radius: 50%;
+    font-size: 1rem;
+    
+    
+}
+
+.socialicons li a i:hover{
+    box-shadow: 0px 0px 6px 4px black;
+}
+
+#about{
+   
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+}
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 4px whitesmoke;
+}
+
+#pimg{
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+    margin-top: 5vh;
+    font-size: 1.2rem;
+    color: gray;
+    font-family: cursive;
+}
+section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+}
+section:nth-child(n){
+    background-color: black;
+}
+section:nth-child(2n+1){
+    background-color:black;
+}
+
+.section_heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    
+    font-weight: 400px;
+}
+
+.section_heading span{
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.mb75px
+{
+    margin-bottom: 75px;
+}
+
+
+.skills_display{
+    width:70%;
+   
+  
+    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill_progress{
+    background-color: #B2B2B2;
+    border-radius: 0.8rem;
+    height: 1.4rem;
+    width: 10rem;
+    margin: 3rem;
+    box-shadow: 0px 0px 2px 2px #B2B2B2;
+    
+    
+}
+
+.skill_progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill_progress span{
+    color: black;
+    font-size: 1rem;
+    margin: 10px 0px 0px 10px;
+    font-weight: bold;
+    
+  
+}
+
+.eighty_five_percent
+{
+    width: 85%;
+    height: inherit;
+    background-color: rgb(75, 10, 255);
+    transition: background-color 20s;
+  
+    
+
+}
+
+.eighty_five_percent:hover
+{
+    background-color: white;
+}
+
+
+
+#hundred_percent
+{
+    width: 100%;
+    height: inherit;
+    background-color: rgb(7, 60, 255);
+    border-radius: inherit;
+}
+.seventy_five_percent{
+    width: 75%;
+    height: inherit;
+    background-color: rgb(7, 60, 255);
+
+}
+.five_percent{
+    width: 5%;
+    height: inherit;
+    background-color: rgb(7, 60, 255);
+
+}
+.eighty_percent{
+    width: 80%;
+    height: inherit;
+    background-color: rgb(7, 60, 255);
+
+}
+.fifty_percent{
+    width: 50%;
+    height: inherit;
+    background-color: rgb(7, 60, 255);
+
+}
+.ninety_percent{
+    width: 90%;
+    height: inherit;
+    background-color: rgb(7, 60, 255);
+
+}
+
+section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.timeline{
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+.timeline-box{
+    position: relative;
+    margin: 5px;
+
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    top: 30%;
+    right: -13%;
+    background-color: rgb(244, 240, 240);
+    z-index: 1;
+}
+.timeline-box.timeline-box:nth-child(2n){
+    left: 53%;
+}
+
+.timeline-divider{
+    
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed rgb(255, 255, 255);
+    top: 10%;
+    left: 50%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 30%;
+    bottom: 100%;
+    transform: rotate(90deg);
+    color: rgb(252, 252, 252);
+}
+
+#maini{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+div{
+    display: block;
+}
+
+.sub{
+    margin: 6%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.headingedu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#sub2{
+    margin-left: 6%;
+}
+
+#sub2 {
+    margin-left: 55%;
+}
+
+
+.sub {
+    left: 8%;
+    width: 80%;
+}
+
+.sub {
+    margin: 6%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text {
+    text-align: right;
+}
+.para {
+    text-align: left;
+    font-family: cursive;
+    color: grey;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.iconedu{
+    color: #FF7000;
+}
+
+.timeline-divider2 {
+    left: 1%;
+}
+.timeline-divider2 {
+    border: 2px dashed #7F8487;
+    height: 75%;
+    width: 0;
+    left: 50%;
+    display: inline-block;
+    top: 10%;
+    position: absolute;
+}
+
+.timeline-traveller2 {
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+    color: white;
+    z-index: 2;
+}
+
+.fa-plane:before {
+    content: "\f072";
+}
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+
+.timeline-dot1 {
+    position: absolute;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    left: 49.8%;
+    top: 10%;
+    background-color: white;
+    z-index: 1;
+}
+.timeline-dot2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    left: 49.8%;
+    top: 48%;
+    background-color: white;
+    z-index: 1;
+}
+
+.timeline-dot3 {
+    position: absolute;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    left: 49.8%;
+    top: 85%;
+    background-color: white;
+    z-index: 1;
+}
+:root{
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+
+:host, :root{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+:host, :root{
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+
+:host, :root{
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+
+.mainiport {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.animate__bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+
+.animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.under {
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
