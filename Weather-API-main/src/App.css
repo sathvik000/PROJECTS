@@ -1,0 +1,266 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.king{
+  /*text-align: center;*/
+  align-items: center;
+  border: 1px solid black;
+
+  padding-right: 25px;
+  max-width: screen-medium;
+  height: 500px;
+  width: 56%;
+  box-shadow: 0 20px 25px  rgb(87 82 76);
+  margin: auto;
+  font: bold;
+  margin-top: 14px;
+  height: fit-content;
+  /*background-image: linear-gradient(to bottom right, red, yellow);*/
+  
+  
+}
+.heading{
+  text-align: center;
+  font-weight:700;
+    font-size: 32px;
+  color: rgb(219 113 113);
+  text-shadow: 1px 1px black;
+  /*background: linear-gradient(to right,#c9109b, #86868e, #596ee6, #eedd44);
+                    
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;*/
+  padding-top:10px ;
+  
+}
+.container{
+  max-width: 87%;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+  border: rgb(233, 229, 229);
+  padding: 20px;
+
+}
+.current_date{
+  position: absolute;
+    color: #8d8484;
+    margin-left: 470px;
+    font-weight: 500;
+    text-shadow: 2px 1px #eeebe4;
+    font-size: 25px;
+    width: 206px;
+    background-color: #f6f4f4;
+    opacity: 0.8;
+    border-radius: 8px;
+    box-shadow: 3px 2px 5px darkslateblue;
+
+}
+.current_date p{
+  margin: 0px;
+}
+.coordinate{
+  margin-bottom:17px;
+}
+.coordinate h2{
+  margin: 0;
+  margin-right: 16px;
+  /* margin: 0; */
+  padding: 0;
+  margin-left: 167px;
+  text-align: left;
+  color: rgb(214 204 203);
+  text-shadow: 2px 1px black;
+
+}
+.coord1{
+  color: navajowhite;
+    text-shadow: 2px 1px black;
+  margin: 0px;
+  margin-left:20px
+}
+.coord2{
+  margin: 0px;
+  color: navajowhite;
+    text-shadow: 2px 1px black;
+    margin-bottom: 18px;
+}
+.c1{
+  position: absolute;
+  
+  margin-left: 98px;
+}
+.c2{
+  position: relative;
+  margin-left: 216px;
+}
+.hr{
+  border-top: 2px dotted red;
+  
+}
+.section{
+  width: 100%;
+  border: rgb(251, 249, 249);
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+}
+.section_inputs{
+  margin-right: 26px;
+
+}
+
+.section_inputs,.section_temp{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*background-color: rgb(130 126 132);
+  background-color: rgb(67, 64, 64);
+  background-color: transparent;
+  padding: 10px;*/
+  font-size: 20px;
+  margin-bottom: 44px;
+
+}
+.section_temp{
+  width: 680px;
+  height: 233px;
+  border-radius: 5px;
+  margin-bottom: 45px;
+  background-color: #a49e95;
+  opacity: 0.8;
+}
+.section_inputs input{
+  border:2px solid rgb(93 98 93);
+  
+  width: 245px;
+  height: 32px;
+  text-indent: 4px;
+  color: #4f4e4c;;
+  font-size: 22px;
+  /*background-color:transparent;*/
+  border-radius: 8px;
+  margin-right: 343px;
+}
+.section_inputs input:focus{
+  
+  outline: none;
+}
+.section_inputs input[type="text"]{
+  width: 300px;
+}
+.sec_in1{
+  position: relative;
+}
+.sec_in2{
+  position: absolute;
+  margin-left: 318px;
+}
+.info{
+  background-color: #4d5353;
+  margin-bottom: 17px;
+  opacity: 0.79;
+}
+
+.timestamp{
+    width: 680px;
+    color: white;
+    border-radius: 5px;
+    /*border: 1px ridge floralwhite;*/
+    box-shadow: 1px 1px 2px 2px #b3b9b9;
+    margin-bottom: 15px;
+}
+.timestamp h2{
+  margin: 2px;
+}
+.section_inputs button{
+  background-color: white;
+  font-size: 26px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.section_inputs button:hover{
+  cursor: pointer;
+  background-color: rgb(219 228 228);
+}
+.icon{
+  
+  /*margin-right: 450px;*/
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.icon h3{
+  font-size: 35px;
+  text-transform: capitalize;
+  padding: 0;
+  
+  
+}
+.icon1{
+  margin-bottom: -5px;
+}
+.icon3{
+  margin-top: 5px;
+
+}
+.icon image{
+  width: 20px;
+  height: 50px;
+  /*background-image: Url(`http://openweathermap.org/img/wn/02d@2x.png);*/
+}
+.temp{
+  font-size: 36px;
+  margin-right: 39px;
+}
+.today_time{
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 578px;
+
+}
+Today{
+  color: wheat;
+  font-size: 30px;
+}
